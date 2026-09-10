@@ -5,7 +5,7 @@ const badges = ["Java", "Kotlin", "Android", "MySQL"];
 
 export function Hero() {
   return (
-    <section id="home" className="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28">
+    <section id="home" className="relative overflow-hidden pt-32 pb-10 sm:pt-40 sm:pb-14">
       <div
         aria-hidden
         className="pointer-events-none absolute -top-40 left-1/2 h-[32rem] w-[52rem] -translate-x-1/2 rounded-full opacity-25 blur-3xl"
@@ -78,7 +78,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="mt-16 flex justify-center">
+      <div className="mt-12 flex justify-center">
         <a
           href="#about"
           aria-label="Scroll to about"
